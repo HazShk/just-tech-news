@@ -1,10 +1,8 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-//create our Vote Model
 class Vote extends Model {}
 
-//define table columns and configuration
 Vote.init(
   {
     id: {
